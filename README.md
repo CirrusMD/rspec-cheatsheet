@@ -5,7 +5,7 @@ Documenting some of the intricacies of the RSpec Testing Framework
 ## Topics
 
 - [Pending Specs](#pending)
-- [Shared Context](#shared-context)
+- [Shared Setup](#shared-setup)
 
 #### Pending
 
@@ -72,7 +72,7 @@ RSpec.describe FakeClass do
 end
 ```
 
-#### Shared Context
+#### Shared Setup
 
 There are several ways to share context within a spec file.
 
